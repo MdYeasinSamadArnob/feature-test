@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #emailInput {
+    @apply placeholder-[#667085] font-normal text-base;
+  }
+  #passwordInput {
+    @apply placeholder-[#667085] font-normal text-base;
+  }
+  #checkbox {
+    @apply rounded-lg !important;
+  }
+  .ant-checkbox {
+    @apply rounded-lg !important;
+  }
+  body {
+    @apply scrollbar-rounded scrollbar-thumb:bg-gray-700/[0.20];
+  }
+}
